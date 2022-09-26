@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    
+    
 }
 @font-face {
     font-family: "myFirstFont";
@@ -10,9 +12,12 @@ html{
 }
 .header{
     display: flex;
-    justify-content: space-around;
-    gap:40%;
+    justify-content: center;
+    gap:300px;
+    
     background-color: #1F2937;
+    margin-bottom: 50px;
+    
 }
 div{
     margin: 0;
@@ -25,6 +30,7 @@ a{
     color:black;
     padding: 2px;
     margin: 5px;
+    font-style: normal;
 }
 .links{
     display: flex;
@@ -33,10 +39,12 @@ a{
 }
 .links_header{
     font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
     color: #e5e7eb;
 }
 h1#lp_logo{
-    font-size: 24px;
+    font-size: 48px;
     color: #F9FAF8;
 }
 .ph_main{
@@ -46,12 +54,21 @@ h1#lp_logo{
     background-color: #1F2937;
     margin: 0;
 }
+.placeholder_box{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+}
 .placeholder{
     display: flex;
     background-color: #1F2937;
-    padding:10px;
+    justify-content: center;
+    gap:50px;
+    margin:50px;
+    
     
 }
+
 .placeholder_content{
     display: flex;
     flex-direction: column;
@@ -61,10 +78,14 @@ h1#lp_logo{
 p#ph_text{
     font-size: 18px;
     color: #e5e7eb;
+    
+    
 }
-.placeholder_img{
+
+.headerbox{
     display: flex;
-    padding:10px;
+    justify-content: center;
+    background-color: #1F2937;
 }
 
 button#ph_button{
@@ -76,7 +97,11 @@ button#ph_button{
     border-radius: 16px;
     color: white;
 }
-
+.some_random_box{
+    display: flex;
+    flex-direction: column;
+    margin:50px;
+}
 .box_header{
     font-size:36px;
     font-weight: bolder;
@@ -87,9 +112,8 @@ button#ph_button{
 }
 .box{
     display: flex;
-    
-   padding:20px;
-    
+    justify-content: center;
+    gap:30px;
 }
 
 .border_box{
@@ -102,18 +126,120 @@ button#ph_button{
     
 }
 
-.box_p{
-    display: flex;
-    margin:5px auto;
-    text-align: center;
-  
-    padding:20px;
-    padding-top:0;
-    margin: 0%;
-}
+
 .boxes{
     display: flex;
     flex-direction: column;
     
     
+}
+img#pc{
+    width: 600px;
+    height: 200px;
+
+}
+.placeholder_img{
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    background-color: dimgrey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
+.box-content{
+    display: flex;
+    justify-content: center;
+    gap:120px;
+}
+.quote_box{
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    gap:0%;
+    padding:0%;
+   
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin:10%;
+}
+.side_quote_h{
+    font-size: 20px;
+    
+}
+.button_main{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button_bg{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    color: white;
+    border-radius: 4px;
+    width: 50%;
+    margin:50px;
+    gap:10%;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding:2%;
+}
+.button_b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    
+}
+button#button_b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #3882F6;
+    border:2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding:10px 40px;
+    
+}
+
+.button_context{
+    display: flex;
+    flex-direction: column;
+  padding:20px;
+}
+.button_context h3{
+    margin: 2px;
+    font-size:25px;
+    
+
+}
+.button_context p{
+    margin: 2px;
+    font-weight: lighter;
+    font-size:12px;
+    font-weight: normal;
+    color: #E8E8E8;
 }

@@ -243,3 +243,15 @@ button#button_b{
     font-weight: normal;
     color: #E8E8E8;
 }
+.boxes img{
+    width: 200px;
+}
+
+.box_p{
+    text-align: left;
+    margin:4px;
+}
+.placeholder_img img{
+    width: 400px;
+    height: 200px;
+}
